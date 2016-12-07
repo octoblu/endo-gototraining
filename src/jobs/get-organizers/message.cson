@@ -1,0 +1,6 @@
+{
+  type: 'object'
+  title: 'Get Organizers'
+  'x-group-name': 'Organizers'
+  required: ['data']
+}

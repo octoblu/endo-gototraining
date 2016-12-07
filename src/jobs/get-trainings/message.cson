@@ -1,0 +1,15 @@
+{
+  type: 'object'
+  title: 'Get Trainings'
+  'x-group-name': 'Trainings'
+  required: ['data']
+  properties:
+    data:
+      type: 'object'
+      properties:
+        organizerKey:
+          type: 'string'
+          title: 'Organizer Key'
+          default: ''
+          description: "Leave blank to use personal key"
+}
